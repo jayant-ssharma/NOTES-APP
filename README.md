@@ -13,6 +13,9 @@ Built with React and TypeScript to practice typed components and state managemen
 ## Preview
 
 ![Desktop](./public/desktop.png)
+
+---
+
 ![Mobile](./public/mobile.png)
 
 ---
