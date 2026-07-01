@@ -13,7 +13,7 @@ const RightSide = ({ notes, onDelete }: RightSideProps) => {
       </h1>
       <div className="flex flex-wrap px-8 mt-4 gap-6">
          {notes.map(function(elem,idx) {
-          return <div key={idx} className="relative h-64 w-52 rounded-xl bg-white pt-3 pr-12 pb-4 text-black shadow-lg overflow-auto break-words">
+          return <div key={idx} className="relative h-64 w-52 rounded-xl bg-white pt-3 px-4  text-black shadow-lg overflow-auto break-all">
             <button
               type="button"
               onClick={() => onDelete(idx)}
@@ -21,8 +21,8 @@ const RightSide = ({ notes, onDelete }: RightSideProps) => {
             >
               X
             </button>
-            <h2 className="text-xl pr-3 font-extrabold break-all">{elem.title}</h2>
-            <p className="text-lg pr-3 leading-6 break-all">{elem.description}</p>
+            <h2 className="text-xl font-extrabold break-all">{elem.title}</h2>
+            <p className="text-lg leading-6 break-">{elem.description}</p>
           </div>
          })}
       </div>
