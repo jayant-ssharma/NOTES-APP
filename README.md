@@ -16,10 +16,6 @@ Built with React and TypeScript to practice typed components and state managemen
 
 ---
 
-![Mobile](./public/mobile.png)
-
----
-
 ## Features
 - 📌 Add notes with a topic/tag and description
 - ❌ Delete individual notes
